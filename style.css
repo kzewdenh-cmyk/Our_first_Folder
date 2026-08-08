@@ -1,0 +1,100 @@
+/* General page styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f7f6;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Header & Navigation styling */
+header {
+    background-color: #0f172a;
+    color: white;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+nav a {
+    color: #38bdf8;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Main Content styling */
+section {
+    background: white;
+    padding: 20px;
+    margin-top: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+h1, h2 {
+    margin-top: 0;
+}
+button {
+    background-color: #38bdf8;
+    color: #0f172a;
+    border: none;
+    padding: 10px 18px;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #7dd3fc;
+}
+button {
+    background-color: #38bdf8;
+    color: #0f172a;
+    border: none;
+    padding: 10px 18px;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-top: 15px;
+    transition: background-color 0.2s ease;
+}
+
+button:hover {
+    background-color: #7dd3fc;
+}
+button {
+    background-color: #38bdf8;
+    color: #0f172a;
+    border: none;
+    padding: 10px 18px;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-top: 15px;
+    transition: background-color 0.2s ease;
+}
+
+button:hover {
+    background-color: #7dd3fc;
+}
+#contact-btn {
+    background-color: #00bcd4; /* Neon Teal background */
+    color: white;              /* White text */
+    padding: 10px 20px;        /* Button size */
+    text-decoration: none;     /* Removes the underline */
+    border-radius: 5px;        /* Rounded corners */
+    display: inline-block;     /* Makes it look like a block button */
+    margin-top: 10px;
+}
+
+#contact-btn:hover {
+    background-color: #0097a7; /* Darker teal when you hover over it */
+}
