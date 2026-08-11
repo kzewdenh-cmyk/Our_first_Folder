@@ -159,48 +159,18 @@ button:hover {
   padding: 4px 8px;
   border-radius: 4px;
 }
-
-/* Contact Form Styles */
-.contact-section {
-  margin-top: 40px;
-  margin-bottom: 40px;
-}
-
-.contact-form {
-  display: flex;
-  flex-direction: column;
-  gap: 15px;
-  max-width: 500px;
-  margin-top: 15px;
-}
-
-.form-group {
-  display: flex;
-  flex-direction: column;
-  gap: 5px;
-}
-
-.form-group label {
+/* Fix text color inside portfolio cards */
+.portfolio-card {
+  background-color: #1e293b;
   color: #f8fafc;
-  font-weight: bold;
-}
-
-.form-group input,
-.form-group textarea {
-  padding: 10px;
-  border-radius: 6px;
+  padding: 20px;
+  border-radius: 8px;
+  flex: 1;
   border: 1px solid #334155;
-  background-color: #0f172a;
-  color: #f8fafc;
-  font-family: inherit;
 }
 
-.form-group input:focus,
-.form-group textarea:focus {
-  outline: none;
-  border-color: #38bdf8;
-}
-/* Make form labels clearly visible on the dark background */
+/* Fix label visibility on light page background */
 .form-group label {
-    color: #ffffff !important;
+  color: #0f172a;
+  font-weight: bold;
 }
