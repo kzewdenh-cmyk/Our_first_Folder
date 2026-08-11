@@ -200,3 +200,7 @@ button:hover {
   outline: none;
   border-color: #38bdf8;
 }
+/* Make form labels clearly visible on the dark background */
+.form-group label {
+    color: #ffffff !important;
+}
