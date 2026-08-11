@@ -159,18 +159,23 @@ button:hover {
   padding: 4px 8px;
   border-radius: 4px;
 }
-/* Fix text color inside portfolio cards */
-.portfolio-card {
-  background-color: #1e293b;
-  color: #f8fafc;
-  padding: 20px;
-  border-radius: 8px;
-  flex: 1;
-  border: 1px solid #334155;
+/* Fix the text labels so they are easily readable */
+.form-group label {
+    font-size: 16px;
+    font-weight: bold;
+    color: #1e293b; /* Changes text to a clear, dark slate color */
 }
 
-/* Fix label visibility on light page background */
-.form-group label {
-  color: #0f172a;
-  font-weight: bold;
+/* Fix the button stretching issue */
+form button, 
+form input[type="submit"] {
+    width: max-content; /* Stops the button from stretching 100% wide */
+    padding: 12px 30px; /* Gives nice breathing room to the left and right */
+    background-color: #38bdf8; 
+    color: #000000;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    align-self: flex-start; /* Ensures the button aligns nicely to the left side */
 }
