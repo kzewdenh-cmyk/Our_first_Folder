@@ -179,3 +179,43 @@ form input[type="submit"] {
     cursor: pointer;
     align-self: flex-start; /* Ensures the button aligns nicely to the left side */
 }
+/* Fixes the name structure layout by stacking labels cleanly above inputs */
+form, form div, .form-group {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: flex-start !important;
+    gap: 8px !important;
+    width: 100% !important;
+    max-width: 500px !important;
+    margin-bottom: 12px !important;
+}
+
+/* Forces the labels to stay visible and dark against your white section background */
+form label {
+    font-weight: bold !important;
+    color: #1e293b !important;
+    margin-bottom: 2px !important;
+}
+
+/* Re-applies the premium dark input design */
+form input, form textarea {
+    width: 100% !important;
+    padding: 12px !important;
+    background-color: #1e293b !important;
+    border: 1px solid #334155 !important;
+    border-radius: 8px !important;
+    color: #f8fafc !important;
+    box-sizing: border-box !important;
+}
+
+/* Fixes the button stretching issue */
+form button, form input[type="submit"] {
+    width: max-content !important;
+    padding: 12px 30px !important;
+    background-color: #38bdf8 !important;
+    color: #000000 !important;
+    border: none !important;
+    border-radius: 8px !important;
+    font-weight: bold !important;
+    cursor: pointer !important;
+}
